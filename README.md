@@ -1,7 +1,3 @@
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>김수진</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +26,6 @@
 }
 * { box-sizing: border-box; }
 body {
-  margin: 0;
   background: var(--bg); color: var(--fg);
   font-family: var(--font-body); font-size: 15px; line-height: 1.7;
   padding-inline: 20px; padding-block: 56px 40px;
@@ -85,8 +80,7 @@ h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 footer { text-align: center; font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
-</head>
-<body>
+
 <main class="page">
   <section class="profile">
     <div class="avatar" aria-hidden="true">Kim</div>
@@ -145,5 +139,3 @@ footer { text-align: center; font-family: var(--font-mono); font-size: 11px; col
   });
 })();
 </script>
-</body>
-</html>
